@@ -32,3 +32,14 @@ You can also decide whether the buttons align left (default) or centered.
 </EsButton>
 </EsButtonGroup>
 ```
+
+You can apply any CSS helper class provided by the styleguide to the component by passing the class like this.
+```handlebars
+<EsButtonGroup @centered={{true}} class="mb-3">
+<EsButton>
+  click me <span>🐹</span>
+</EsButton><EsButton>
+  With a lot of text
+</EsButton>
+</EsButtonGroup>
+```
