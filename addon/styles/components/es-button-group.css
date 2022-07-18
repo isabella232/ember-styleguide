@@ -1,9 +1,0 @@
-.es-button-group {
-  display: flex;
-  flex-wrap: wrap;
-  gap: var(--spacing-1);
-}
-
-.button-group-centered {
-  justify-content: center;
-}
